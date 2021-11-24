@@ -1,0 +1,49 @@
+// @font-face{
+//   font-family: 'Quicksand-Medium', sans-serif;
+//   font-weight: 500;
+//   font-style: normal;
+//   src: local('Quicksand-Medium'),
+//         url('../fonts/Quicksand-Medium.woff2') format('woff2'),
+//         url('../fonts/Quicksand-Medium.woff') format('woff');
+//   font-display: swap;
+// }
+// _________________________________________
+@font-face{
+  font-family: 'Segoe UI Semibold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Segoe UI Semibold'),
+        url('../fonts/Segoe UI Semibold.woff2') format('woff2'),
+        url('../fonts/Segoe UI Semibold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Segoe UI'),
+        url('../fonts/Segoe UI.woff2') format('woff2'),
+        url('../fonts/Segoe UI.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'PlayfairDisplay-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('PlayfairDisplay-Bold'),
+        url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'PlayfairDisplay-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('PlayfairDisplay-Regular'),
+        url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-display: swap;
+}

@@ -1,0 +1,61 @@
+// $text: #8d8d8d; - color
+
+
+
+// %quicksand-500{
+//   font-family: 'Quicksand-Medium', sans-serif;
+//   font-weight: 500;
+// }
+
+
+// %button{
+//     text-transform: uppercase;
+//     color: #fff;
+//     background-color: $accent;
+//     padding: 12px 20px;
+//     box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+//     display: inline-block;
+// }
+
+// FANCY!!!!!
+// @function max($numbers...) {
+// @return m#{a}x(#{$numbers});}
+// @function min($numbers...) {
+// @return m#{i}n(#{$numbers});}
+
+// ------------------------------------------------------------------
+
+$btn: #9F8A79;
+$bg: #E5E5E5;
+$foot: #222227;
+
+%segoe-400{
+  font-family: 'Segoe UI';
+  font-weight: 400;
+}
+%segoe-600{
+  font-family: 'Segoe UI Semibold';
+  font-weight: 600;
+}
+%playfair-700{
+  font-family: 'PlayfairDisplay-Bold';
+  font-weight: 700;
+}
+%playfair-400{
+  font-family: 'PlayfairDisplay-Regular';
+  font-weight: 400;
+}
+%button{
+  padding: 16px 34px;
+  color: #fff;
+  @extend %playfair-700;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 10px;
+  background-color: $btn;
+  display: inline-block;
+  transition: .3s;
+  &:hover{
+    background-color: #8e7764;
+  }
+}

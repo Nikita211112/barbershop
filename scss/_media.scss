@@ -1,0 +1,339 @@
+@media (max-width: 1300px){
+  .slider-top__box-content{
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1160px){
+  .team{
+    &__inner{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 20px;
+      
+    }
+    &__item{
+      height: auto;
+    }
+  }
+  .services{
+    &__inner{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 30px;
+    }
+    &__link{
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 1010px){
+  .header{
+    .menu{
+      &__lists{
+        display: block;
+        text-align: center;
+        top: -200px;
+        left: 0;
+        right: 0;
+        background-color: #222227;
+        position: absolute;
+        padding-bottom: 20px;
+        z-index: 2;
+      }
+      &__list + .menu__list{
+        margin-left: 0;
+        margin-top: 10px;
+      }
+      &.menu-active .menu__lists{
+        animation-name: menuBot;
+        top: 75px;
+      }
+    }
+    .burger{
+      display: flex;
+      order: 1;
+    }
+    &__contacts{
+      margin-right: auto;
+      margin-left: 35px;
+    }
+  }
+  .price{
+    &__wrap{
+      margin-right: 30px;
+    }
+  }
+  .footer{
+    &__nav{
+      padding: 75px 0 80px;
+    }
+    &__inner{
+      flex-wrap: wrap;
+    }
+    &__form-wrap{
+      margin: 40px 0 0;
+    }
+    &__lists{
+      margin: 0 30px;
+    }
+  }
+}
+
+@media (max-width: 965px) {
+  .slider-top{
+    &__box-content{
+      max-width: 650px;
+    }
+    &__box-text{
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 5px;
+    }
+    &__title{
+      font-size: 36px;
+      line-height: 48px;
+      margin-bottom: 10px;
+    }
+    &__btn{
+      font-size: 16px;
+      line-height: 24px;
+      padding: 14px 30px;
+    }
+  }
+  .about{
+    &__content{
+      max-width: 350px;
+      margin-right: 20px;
+    }
+  }
+}
+
+@media (max-width: 850px){
+  .quote{
+    background-attachment: initial;
+    &__wrap{
+      padding: 165px 0;
+    }
+    &__blockquote{
+      font-size: 25px;
+      line-height: 36px;
+      margin-bottom: 25px;
+    }
+    &__autor{
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  .services{
+    &__inner{
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 30px;
+    }
+    &__item{
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .team{
+    padding: 30px 0 60px;
+    &__inner{
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 30px;
+    }
+    &__item{
+      margin: 0 auto;
+    }
+  }
+  .footer{
+    &__lists{
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .slider-top{
+    &__box{
+      min-height: 650px;
+    }
+    &__box-bg{
+      min-height: 650px;
+    }
+    &__wrap{
+      min-height: 650px;
+    }
+    &__box-text{
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 2px;
+    }
+    &__title{
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+  .about{
+    &__pictures{
+      display: none;
+    }
+    &__content{
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  .price{
+    &__inner{
+      display: block;
+    }
+  }
+  .swipe{
+    &__content{
+      display: block;
+      text-align: center;
+    }
+    &__left{
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    &__right{
+      margin: 0 auto;
+    }
+  }
+  .footer{
+    &__lists{
+      max-width: 50%;
+      margin-top: 40px;
+    }
+    &__form-wrap{
+      margin-top: 15px;
+    }
+  }
+}
+
+@media (max-width: 590px){
+  .header{
+    &__contacts{
+      margin-left: auto;
+    }
+  }
+  .slider-top{
+    &__box-content{
+      max-width: 410px;
+    }
+  }
+}
+
+@media (max-width: 560px){
+  .footer{
+    &__bottom{
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px 0;
+    }
+    &__social{
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    &__copy{
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .slider-top{
+    &__btn{
+      margin-right: 15px;
+      margin-bottom: 20px;
+    }
+    &__box-content{
+      margin-left: 0;
+    }
+  }
+  .quote{
+    &__wrap{
+      padding: 120px 0;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header{
+    padding-bottom: 100px;
+      &__contacts{
+        position: absolute;
+        top: 100px;
+         &.contacts-active{
+           animation-name: ContactsAn;
+           animation-duration: 1.4s;
+         }
+      }
+      &__box{
+        height: 45px;
+      }
+  }
+  .slider-top{
+    &__wrap{
+      padding-top: 150px;
+    }
+  }
+  .swipe{
+    &__left{
+      margin-bottom: 15px;
+    }
+    &__left-title{
+      font-size: 37px;
+      line-height: 47px
+    }
+    &__right{
+      padding: 15px;
+    }
+    .swiper-container{
+      .swiper-pagination-bullets{
+        bottom: 40px;
+      }
+    }
+  }
+  .team{
+    .subtitle{
+      margin: 7px 0 27px;
+    }
+    &__inner{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .quote{
+    &__wrap{
+      padding: 100px 0;
+    }
+    &__blockquote{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    &__autor{
+      font-size: 18px;
+    }
+  }
+  .services{
+    &__inner{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .about{
+    &__title{
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &__logo{
+      width: 80%;
+    }
+  }
+}
